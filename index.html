@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora Econômica Solar</h1>
+
+    <label for="consumo">Consumo Médio Mensal (kWh):</label>
+    <input type="number" id="consumo" required><br><br>
+
+    <label for="tarifa">Tarifa de Energia (R$/kWh):</label>
+    <input type="number" id="tarifa" step="0.01" required><br><br>
+
+    <label for="custo_sistema">Custo Total do Sistema (R$):</label>
+    <input type="number" id="custo_sistema" step="100" required><br><br>
+
+    <label for="geracao_media">Geração Média Mensal Estimada (kWh):</label>
+    <input type="number" id="geracao_media" required><br><br>
+
+    <button id="calcularBtn">Calcular</button>
+
+    <h2>Resultados:</h2>
+    <p>Economia Mensal Estimada: R$ <span id="resultado_economia">--</span></p>
+    <p>Tempo de Retorno (Payback Simples): <span id="resultado_payback">--</span> anos</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
