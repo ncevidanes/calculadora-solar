@@ -1,0 +1,75 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: sans-serif; /* Define uma fonte padrão */
+    line-height: 1.6; /* Melhora a legibilidade */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
+    max-width: 600px; /* Limita a largura máxima para melhor leitura em telas grandes */
+    margin: 20px auto; /* Centraliza o corpo da página e adiciona margem superior/inferior */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    border: 1px solid #ccc; /* Adiciona uma borda sutil */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #333; /* Cor do texto do título */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+}
+
+/* Estilo para os rótulos (labels) */
+label {
+    display: block; /* Faz cada label ocupar uma linha */
+    margin-bottom: 5px; /* Pequeno espaço abaixo do label */
+    font-weight: bold; /* Deixa o texto do label em negrito */
+}
+
+/* Estilo para os campos de entrada (input) */
+input[type="number"] {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    padding: 10px; /* Espaço interno no input */
+    margin-bottom: 15px; /* Espaço abaixo de cada input */
+    border: 1px solid #ccc; /* Borda do input */
+    border-radius: 4px; /* Cantos arredondados */
+    box-sizing: border-box; /* Garante que padding não aumente a largura total */
+}
+
+/* Estilo para o botão */
+button {
+    display: block; /* Ocupa a linha inteira */
+    width: 100%; /* Largura total */
+    padding: 12px 20px; /* Espaçamento interno */
+    background-color: #28a745; /* Cor de fundo verde (semelhante a sucesso) */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar clicabilidade */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaço acima do botão */
+    margin-bottom: 30px; /* Espaço abaixo do botão */
+    transition: background-color 0.3s ease; /* Efeito suave na mudança de cor */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #218838; /* Verde um pouco mais escuro */
+}
+
+/* Estilo para a seção de resultados */
+h2 {
+    margin-top: 20px; /* Espaço acima do título de resultados */
+    border-bottom: 1px solid #eee; /* Linha separadora */
+    padding-bottom: 10px; /* Espaço abaixo da linha */
+}
+
+/* Estilo para os parágrafos de resultado */
+p {
+    margin-bottom: 10px; /* Espaço entre os parágrafos de resultado */
+}
+
+/* Estilo específico para os spans onde os valores são exibidos */
+#resultado_economia,
+#resultado_payback {
+    font-weight: bold; /* Deixa os números dos resultados em negrito */
+    color: #007bff; /* Cor azul para destacar os resultados */
+}
